@@ -28,19 +28,12 @@ header {
 }
 h1,h2,h3 {
   color: hsl(210, 10%, 33%);
-}
-.h-title {
-  /* background-color: red;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+  display: inline;
 }
 h1 {
   font-size: 45.14px;
   letter-spacing: -0.0075em;
   line-height: 57px;
-  display: inline;
 }
 .h-text {
   font-size: 20px;
@@ -50,7 +43,7 @@ h1 {
   line-height: 30px;
 }
 .button-ios , .button-mac {
-  padding: 15px 36px;
+  padding: 15px 35px 11px 35px;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.027em;
@@ -73,4 +66,21 @@ h1 {
 main {
   margin: 153px 0 160px 0;
   text-align: center;
+}
+.keep {
+  font-size: 36.5px;
+  font-weight: 600;
+  letter-spacing: -0.026em;
+}
+.first-s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.snippets-text {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.0076em;
+  max-width: 723px;
+  margin: 19px 0 77px 0;
 }
