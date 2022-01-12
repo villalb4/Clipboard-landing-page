@@ -11,6 +11,7 @@ body {
   color: hsl(201, 11%, 66%);
 }
 
+
 header {
   background-image: url(/images/bg-header-desktop.png);
   background-repeat: no-repeat;
@@ -20,24 +21,31 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* margin-bottom: 153px; */
 }
 .logo {
-  margin-top: 131px;
-  margin-bottom: 61px;
+  margin-top: 128px;
+  margin-bottom: 56px;
 }
 h1,h2,h3 {
   color: hsl(210, 10%, 33%);
 }
-
+.h-title {
+  /* background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
 h1 {
-  font-size: 46px;
-  margin-bottom: 22px;
+  font-size: 45.14px;
+  letter-spacing: -0.0075em;
+  line-height: 57px;
+  display: inline;
 }
 .h-text {
   font-size: 20px;
   width: 694px;
-  margin: 15px 0 50px 0;
+  margin: 15px 0 49px 0;
   letter-spacing: 0.007em;
   line-height: 30px;
 }
@@ -52,7 +60,7 @@ h1 {
 }
 .h-buttons {
   display: flex;
-  gap: 15px;
+  gap: 16px;
 }
 .button-ios {
   background-color: hsl(171, 66%, 44%);
@@ -61,3 +69,8 @@ h1 {
   background-color: hsl(233, 100%, 69%);
 }
 
+
+main {
+  margin: 153px 0 160px 0;
+  text-align: center;
+}
