@@ -67,6 +67,9 @@ main {
   margin: 153px 0 160px 0;
   text-align: center;
 }
+.snippets {
+  margin-bottom: 153px;
+}
 .keep {
   font-size: 36.5px;
   font-weight: 600;
@@ -83,4 +86,72 @@ main {
   letter-spacing: 0.0076em;
   max-width: 723px;
   margin: 19px 0 77px 0;
+}
+.snippets-info {
+  display: flex;
+  gap: 111px;
+}
+.snippets-description {
+  text-align: start;
+}
+.s-text {
+  width: 343px;
+  margin-bottom: 56px;
+}
+
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 74px;
+}
+.access {
+  font-size: 36.5px;
+  font-weight: 600;
+  letter-spacing: -0.026em;
+}
+.text-clip {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.0076em;
+  margin: 19px 0 97px 0;
+  max-width: 752px;
+}
+
+.workflow {
+}
+.workflow-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 37px;
+}
+.w-title {
+  font-size: 36.5px;
+  font-weight: 600;
+  letter-spacing: -0.026em;
+}
+.w-para {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.0076em;
+  margin: 19px 0 76px 0;
+}
+.icon {
+  /* margin-bottom: 40px; */
+}
+.text-u, .text-d, .text-t {
+  /* margin-top: 16px; */
+  font-size: 16px;
+  line-height: 184.5%;
+  letter-spacing: 0.007em;
+}
+.text-u {
+  max-width: 332px;
+}
+.text-d {
+  max-width: 344px;
+}
+.text-t {
+  max-width: 349px;
 }
