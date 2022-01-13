@@ -94,9 +94,24 @@ main {
 .snippets-description {
   text-align: start;
 }
+.s-title {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  padding: 50px 0;
+}
+.search {
+  margin-top: 71px;
+}
 .s-text {
   width: 343px;
-  margin-bottom: 56px;
+  font-size: 16px;
+  letter-spacing: 0.007em;
+  padding-top: 8px;
+  line-height: 184%;
+}
+.sync {
+  margin: 56px 0;
 }
 
 .clipboard {
@@ -141,7 +156,7 @@ main {
   /* margin-bottom: 40px; */
 }
 .text-u, .text-d, .text-t {
-  /* margin-top: 16px; */
+  margin-top: 16px;
   font-size: 16px;
   line-height: 184.5%;
   letter-spacing: 0.007em;
