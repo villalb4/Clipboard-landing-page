@@ -134,6 +134,7 @@ main {
 }
 
 .workflow {
+  margin-bottom: 162px;
 }
 .workflow-info {
   display: flex;
@@ -169,4 +170,12 @@ main {
 }
 .text-t {
   max-width: 349px;
+}
+
+
+.logoss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
 }
